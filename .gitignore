@@ -1,5 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
 .gitignore
-.idea/
+.readme
+yarn.lock
 
+.idea/
+dist
+node_modules
 
