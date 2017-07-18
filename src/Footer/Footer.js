@@ -1,10 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Footer = () => (
-    <div></div>
+import styles from "./Footer.css";
+
+const Footer = ({text}) => (
+    <div className={styles.main}>
+      {text}
+    </div>
 );
 
-$componentName.propTypes = {}
+Footer.propTypes = {
+  text: PropTypes.string.isRequired
+};
 
 export default Footer;
