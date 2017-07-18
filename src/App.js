@@ -7,7 +7,7 @@ const App = () => (
   <div>
     <header>Get your sparkle on</header>
     <InputField/>
-    <Button type={"primary"} label={"Sparkle on, baby!"}/>
+    <Button className={"primary"} label={"Sparkle on, baby!"}/>
     <footer>Made with love in Chicago</footer>
   </div>
 );
