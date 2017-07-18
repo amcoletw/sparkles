@@ -1,0 +1,21 @@
+.button {
+  border-radius: 0.5em;
+  padding: 1em;
+  text-align: center;
+}
+
+.primary {
+  composes: button;
+
+  background-color: aquamarine;
+  color: #fff;
+  border: 1px solid aquamarine;
+}
+
+.secondary {
+  composes: button;
+
+  background-color: #fff;
+  color: aquamarine;
+  border: 1px solid aquamarine;
+}
