@@ -10,7 +10,7 @@ describe("InputField", () => {
     chai.use(chaiEnzyme());
 
     it("can change its type", () => {
-        const inputField = shallow(<InputField type="number"/>);
+        const inputField = shallow(<InputField type="number" />);
 
         expect(inputField).to.have.attr("type", "number");
     });

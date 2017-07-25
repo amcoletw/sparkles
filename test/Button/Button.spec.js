@@ -9,7 +9,7 @@ import Button from "../../src/Button/Button";
 describe("Button", () => {
   chai.use(chaiEnzyme());
 
-  const doShallow = () => shallow(<Button type="submit"/>);
+  const doShallow = () => shallow(<Button type="submit" label=""/>);
 
   it("can submit a form", () => {
     const button = doShallow();
