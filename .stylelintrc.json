@@ -2,5 +2,12 @@
   "extends": [
     "stylelint-config-standard",
     "stylelint-config-css-modules"
-  ]
+  ],
+  "rules": {
+    "max-empty-lines": 2,
+    "no-eol-whitespace": [true, {
+        "ignore": "empty-lines"
+      }
+    ]
+  }
 }
