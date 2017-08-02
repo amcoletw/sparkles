@@ -5,9 +5,10 @@ import InputField from "./InputField/InputField";
 import Button from "./Button/Button";
 import Footer from "./Footer/Footer";
 import Sidebar from "./Sidebar/Sidebar";
+import GridContainer from "./Layout/GridContainer/GridContainer";
 
 const App = () => (
-  <div>
+  <GridContainer>
     <Header text="Get your sparkle on"/>
     <div>
       <InputField type="text" title="what's happening?"/>
@@ -17,7 +18,7 @@ const App = () => (
         This is a sidebar. Hooray!
     </Sidebar>
     <Footer text="Made with love in Chicago"/>
-  </div>
+  </GridContainer>
 );
 
 export default App;
