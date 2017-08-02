@@ -10,8 +10,8 @@ const App = () => (
   <div>
     <Header text="Get your sparkle on"/>
     <div>
-      <InputField/>
-      <Button className={"primary"} label={"Sparkle on, baby!"}/>
+      <InputField type="text" title="what's happening?"/>
+      <Button className="primary" label="Sparkle on, baby!"/>
     </div>
     <Sidebar>
         This is a sidebar. Hooray!

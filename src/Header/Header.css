@@ -1,4 +1,6 @@
 .container {
   text-align: center;
   padding: 1em;
+  
+  border-bottom: 1px solid lightgray;
 }
