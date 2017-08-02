@@ -6,7 +6,7 @@ const Sidebar = ({children}) => (
 );
 
 Sidebar.propTypes = {
-  children: PropTypes.object
+  children: PropTypes.element.isRequired
 };
 
 export default Sidebar;

@@ -11,8 +11,8 @@ describe("Sidebar", () => {
   chai.use(chaiEnzyme());
 
   it("renders a sidebar", () => {
-    const sidebar = shallow(<Sidebar/>);
+    const sidebar = shallow(<Sidebar>{"I'm a child."}</Sidebar>);
 
-    expect(sidebar).to.have.descendants(<div/>);
+    expect(sidebar).to.have.text("I'm a child.");
   });
 });
