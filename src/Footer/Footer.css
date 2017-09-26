@@ -1,4 +1,6 @@
 .main {
+  grid-column: 1 / span 6;
+  
   border-top: 1px solid lightgray;
   
   text-align: center;
