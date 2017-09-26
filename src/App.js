@@ -6,14 +6,15 @@ import Button from "./Button/Button";
 import Footer from "./Footer/Footer";
 import Sidebar from "./Sidebar/Sidebar";
 import GridContainer from "./Layout/GridContainer/GridContainer";
+import MainContainer from "./MainContainer/MainContainer";
 
 const App = () => (
   <GridContainer>
     <Header text="Get your sparkle on"/>
-    <div>
+    <MainContainer>
       <InputField type="text" title="what's happening?"/>
       <Button className="primary" label="Sparkle on, baby!"/>
-    </div>
+    </MainContainer>
     <Sidebar>
         This is a sidebar. Hooray!
     </Sidebar>
