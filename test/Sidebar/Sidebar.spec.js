@@ -15,10 +15,4 @@ describe("Sidebar", () => {
 
     expect(sidebar).to.have.text("I'm a child.");
   });
-
-  // it("positions itself to the right", () => {
-  //   const sidebar = shallow(<Sidebar>{"I'm another child"}</Sidebar>);
-  //
-  //   expect(sidebar).to.have.className("main");
-  // });
 });

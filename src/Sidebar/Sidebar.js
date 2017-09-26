@@ -1,8 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
+import styles from "./Sidebar.css";
 
 const Sidebar = ({children}) => (
-    <div>{children}</div>
+    <div className={styles.main}>{children}</div>
 );
 
 Sidebar.propTypes = {
